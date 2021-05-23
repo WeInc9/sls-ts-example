@@ -1,0 +1,18 @@
+{
+    "extends": "@tsconfig/node14/tsconfig.json",
+    "compilerOptions": {
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "module": "commonjs",
+      "allowJs": true,
+      "outDir": "build",
+      "rootDir": "./src",
+      "alwaysStrict": false,
+      "noImplicitAny": true,
+      /// "noImplicitUseStrict": true,
+      "noUnusedLocals": true,
+      "suppressImplicitAnyIndexErrors": true
+    },
+    "include": ["src/**/*.ts", "src/**/*.js"]
+  }
