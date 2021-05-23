@@ -1,3 +1,5 @@
+import {  AppRepository} from "../repo/appRepo";
+
 export async function hello(event: any, context: any, callback: any) {
 
     // dependencies work as expected
@@ -9,5 +11,8 @@ export async function hello(event: any, context: any, callback: any) {
       }),
     };
   
+    const repo = new AppRepository();
+    const js = JSON.parse('{"est12": 1234}');
+    repo.save("Config", js );
     callback(null, response);
   }

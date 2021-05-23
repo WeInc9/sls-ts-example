@@ -9,7 +9,7 @@
       "outDir": "build",
       "rootDir": "./src",
       "alwaysStrict": false,
-      "noImplicitAny": true,
+      "noImplicitAny": false,
       /// "noImplicitUseStrict": true,
       "noUnusedLocals": true,
       "suppressImplicitAnyIndexErrors": true
