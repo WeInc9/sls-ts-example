@@ -1,5 +1,5 @@
 
-import { hello } from '../src/handler';
+import { hello } from '../src/app';
 const  context = require('aws-lambda-mock-context');
 
 const ctx = context();
